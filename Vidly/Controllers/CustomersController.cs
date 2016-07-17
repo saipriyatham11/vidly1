@@ -16,11 +16,12 @@ namespace Vidly.Controllers
             return View(customers);
         }
 
-        public ActionReasult Details(int id)
+        private object GetCustomers()
         {
-
-
+            throw new NotImplementedException();
         }
+
+       
 
     }
 }

@@ -16,5 +16,11 @@ namespace Vidly.Controllers
            //return View(news);
             return RedirectToAction("Index", "Home");
         }
+        public ActionResult old()
+        {
+            var news = new News() { Name = "Shrek!" };
+            //return View(news);
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
