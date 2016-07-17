@@ -16,5 +16,7 @@ namespace Vidly.Models
         public bool IsSubscribedtomigration { get; set; }
         public MembershipType MembershipType { get; set; }
         public byte MembershipTypeid { get; set; }
+
+        public int Id { get; set; }
     }
 }
